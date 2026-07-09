@@ -1,3 +1,10 @@
+/**
+ * EVOCROSS Generative Live-Coding AV Synthesizer Workspace
+ * 
+ * Copyright (c) 2026 AnsHh9094. All rights reserved.
+ * Proprietary and Confidential. Unauthorized copying or redistribution
+ * of this project, via any medium, is strictly prohibited.
+ */
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { tokenize } from './compiler/lexer';
 import { parse } from './compiler/parser';
@@ -1357,6 +1364,13 @@ function App() {
         </div>
 
         <canvas ref={canvasRef} />
+
+        {/* Anti-Piracy Security Watermark */}
+        <div className="vj-security-watermark">
+          <span className="wm-title">EVOCROSS</span>
+          <span className="wm-details">SECURED WORKPLACE STATION SYNC-ID: 9094-ANSH</span>
+          <span className="wm-copyright">© 2026 ANSHH9094. ALL RIGHTS RESERVED. Proprietary & Confidential.</span>
+        </div>
 
         {showShaderPeek && (
           <div className="shader-peek-panel">

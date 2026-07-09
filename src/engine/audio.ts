@@ -1,3 +1,10 @@
+/**
+ * EVOCROSS Audio DSP Engine
+ * 
+ * Copyright (c) 2026 AnsHh9094. All rights reserved.
+ * Proprietary and Confidential. Unauthorized copying or redistribution
+ * of this project, via any medium, is strictly prohibited.
+ */
 import type { AudioCommand } from '../compiler/evaluator';
 
 export class AudioEngine {
